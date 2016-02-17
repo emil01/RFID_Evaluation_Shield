@@ -4328,6 +4328,12 @@ https://www.sparkfun.com/products/8745</description>
 <part name="X10" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
 <part name="X11" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
 <part name="X12" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="X1" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="X4" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="X2" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="X3" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="X13" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="X14" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4401,6 +4407,12 @@ https://www.sparkfun.com/products/8745</description>
 <instance part="X10" gate="G$1" x="299.72" y="93.98"/>
 <instance part="X11" gate="G$1" x="299.72" y="81.28"/>
 <instance part="X12" gate="G$1" x="299.72" y="68.58"/>
+<instance part="X1" gate="G$1" x="269.24" y="50.8"/>
+<instance part="X4" gate="G$1" x="302.26" y="50.8"/>
+<instance part="X2" gate="G$1" x="266.7" y="33.02"/>
+<instance part="X3" gate="G$1" x="299.72" y="33.02"/>
+<instance part="X13" gate="G$1" x="264.16" y="15.24"/>
+<instance part="X14" gate="G$1" x="297.18" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -4605,6 +4617,48 @@ https://www.sparkfun.com/products/8745</description>
 <wire x1="297.18" y1="60.96" x2="294.64" y2="60.96" width="0.1524" layer="91"/>
 <label x="294.64" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="GND@0"/>
+<pinref part="X1" gate="G$1" pin="GND@1"/>
+<wire x1="266.7" y1="45.72" x2="266.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
+<label x="264.16" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="GND@0"/>
+<pinref part="X4" gate="G$1" pin="GND@1"/>
+<wire x1="299.72" y1="45.72" x2="299.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="43.18" x2="297.18" y2="43.18" width="0.1524" layer="91"/>
+<label x="297.18" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="GND@0"/>
+<pinref part="X2" gate="G$1" pin="GND@1"/>
+<wire x1="264.16" y1="27.94" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="25.4" x2="261.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="261.62" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="GND@0"/>
+<pinref part="X3" gate="G$1" pin="GND@1"/>
+<wire x1="297.18" y1="27.94" x2="297.18" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="25.4" x2="294.64" y2="25.4" width="0.1524" layer="91"/>
+<label x="294.64" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X13" gate="G$1" pin="GND@0"/>
+<pinref part="X13" gate="G$1" pin="GND@1"/>
+<wire x1="261.62" y1="10.16" x2="261.62" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="7.62" x2="259.08" y2="7.62" width="0.1524" layer="91"/>
+<label x="259.08" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X14" gate="G$1" pin="GND@0"/>
+<pinref part="X14" gate="G$1" pin="GND@1"/>
+<wire x1="294.64" y1="10.16" x2="294.64" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="7.62" x2="292.1" y2="7.62" width="0.1524" layer="91"/>
+<label x="292.1" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -4760,6 +4814,21 @@ https://www.sparkfun.com/products/8745</description>
 <wire x1="233.68" y1="157.48" x2="236.22" y2="157.48" width="0.1524" layer="91"/>
 <label x="236.22" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="SIGNAL"/>
+<wire x1="274.32" y1="50.8" x2="276.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="276.86" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="SIGNAL"/>
+<wire x1="271.78" y1="33.02" x2="274.32" y2="33.02" width="0.1524" layer="91"/>
+<label x="274.32" y="33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X13" gate="G$1" pin="SIGNAL"/>
+<wire x1="269.24" y1="15.24" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
+<label x="271.78" y="15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ANT2" class="0">
 <segment>
@@ -4771,6 +4840,21 @@ https://www.sparkfun.com/products/8745</description>
 <pinref part="U$8" gate="G$1" pin="RFC"/>
 <wire x1="193.04" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
 <label x="195.58" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G$1" pin="SIGNAL"/>
+<wire x1="307.34" y1="50.8" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
+<label x="309.88" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="SIGNAL"/>
+<wire x1="304.8" y1="33.02" x2="307.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="307.34" y="33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X14" gate="G$1" pin="SIGNAL"/>
+<wire x1="302.26" y1="15.24" x2="304.8" y2="15.24" width="0.1524" layer="91"/>
+<label x="304.8" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RESET" class="0">
