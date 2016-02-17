@@ -63,6 +63,10 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -71,6 +75,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -79,11 +84,33 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -101,9 +128,29 @@
 <layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -2128,6 +2175,64 @@ Various fiducial points for machine vision alignment.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="adafruit">
+<packages>
+<package name="U.FL">
+<wire x1="1.3" y1="0.7" x2="1.3" y2="2.1" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="2.1" x2="-1.3" y2="2.1" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="-2.1" x2="1.3" y2="-2.1" width="0.2032" layer="21"/>
+<wire x1="1.3" y1="-2.1" x2="1.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="2.1" width="0.2032" layer="21"/>
+<wire x1="-1.3" y1="-2.1" x2="-1.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="2" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-2" x2="1.4" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="2.1" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-2.1" x2="1.5" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="2.1" x2="1.3" y2="2.1" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.3" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-0.7" x2="1.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="1.5" y1="-2.1" x2="1.3" y2="-2.1" width="0.2032" layer="21"/>
+<smd name="1" x="0" y="1.375" dx="2.2" dy="1.05" layer="1"/>
+<smd name="2" x="0" y="-1.375" dx="2.2" dy="1.05" layer="1"/>
+<smd name="3" x="1.525" y="0" dx="0.8" dy="1" layer="1"/>
+<rectangle x1="-0.889" y1="-0.8255" x2="0.889" y2="0.8255" layer="41"/>
+<text x="-1.27" y="2.54" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="U.FL">
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="GND@0" x="-2.54" y="-5.08" visible="off" length="short" direction="pas"/>
+<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short" direction="pas"/>
+<text x="-2.54" y="3.302" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ANTENNA_U.FL" prefix="X" uservalue="yes">
+<description>&lt;p&gt;U.FL Antenna Connector&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="U.FL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U.FL">
+<connects>
+<connect gate="G$1" pin="GND@0" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="SIGNAL" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2155,6 +2260,10 @@ Various fiducial points for machine vision alignment.</description>
 <part name="JP13" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF"/>
 <part name="C7" library="SparkFun" deviceset="CAP" device="0402-CAP" value="22pF"/>
+<part name="X1" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
+<part name="X2" library="adafruit" deviceset="ANTENNA_U.FL" device=""/>
+<part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2197,6 +2306,10 @@ Various fiducial points for machine vision alignment.</description>
 <attribute name="NAME" x="189.484" y="68.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.484" y="63.881" size="1.778" layer="96"/>
 </instance>
+<instance part="X1" gate="G$1" x="160.02" y="60.96"/>
+<instance part="GND1" gate="1" x="154.94" y="48.26"/>
+<instance part="X2" gate="G$1" x="157.48" y="99.06"/>
+<instance part="GND2" gate="1" x="152.4" y="86.36"/>
 </instances>
 <busses>
 </busses>
@@ -2220,6 +2333,24 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="GND@0"/>
+<wire x1="157.48" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="GND@1"/>
+<wire x1="157.48" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="GND@0"/>
+<wire x1="154.94" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="X2" gate="G$1" pin="GND@1"/>
+<wire x1="154.94" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="91.44" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="91.44" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="ANT1" class="0">
 <segment>
@@ -2227,12 +2358,22 @@ Various fiducial points for machine vision alignment.</description>
 <label x="167.64" y="78.74" size="1.778" layer="95"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="SIGNAL"/>
+<wire x1="165.1" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
+<label x="167.64" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ANT2" class="0">
 <segment>
 <wire x1="175.26" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="167.64" y="73.66" size="1.778" layer="95"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="SIGNAL"/>
+<wire x1="162.56" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="165.1" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
